@@ -1,3 +1,6 @@
+_This the code for producebuddy.com (or producebuddy.herokuapp.com) which is based off of sheetsee-cache. The readme below is from that respository.
+
+
 _This is the WIP server-side version, client side version is here: [github.com/jllord/sheetsee.js](http://github.com/jllord/sheetsee.js)_
 
 ### Server-side Hookup
