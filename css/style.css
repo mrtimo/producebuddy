@@ -1,0 +1,76 @@
+/* General */
+
+/*  body {margin: 0px auto;}
+  a {color: #333;}
+  small {padding: 10px 0px;}
+  #wrapper {margin: 0px auto; max-width: 600px;}
+  .button {padding: 5px 4px; background-color: #fff; font-size: 10px;}*/
+  .button:hover {cursor: hand;}
+  input:focus {outline: none;}
+
+/* Table */
+
+  table {text-align: left}
+  th {padding: 10px 0px;}
+  td, text {padding: 3px 20px 3px 0px; font-size: 14px;}
+  input {margin: 12px 0px; border: none; border-bottom: 1px solid #333; background-color: transparent; padding: 0px; font-family: Merriweather; color: #acacac; font-size: 13px; height: 22px;}
+  .noMatches {margin-left: 20px; font-size: 11px; font-style: italic; visibility: hidden;}
+
+/* Containers */
+  .container {margin: 14px 0px;}
+  #map {height: 400px; max-width: 800px; background: #DADADA;}
+  #holder {height: 400px; max-width: 600px; background: #FFE4E4;}
+  #bar2 {height: 320px; max-width: 600px; background: #F8CDCD;}
+
+/* Bar Chart */
+
+  .labels text {text-align: right;}
+  .bar .labels text {fill: #333;}
+  .bar rect {fill: #e6e6e6;}
+  .axis {shape-rendering: crispEdges;}
+  .x.axis line {stroke: #FFE4E4; /*stroke-opacity: .2;*/ fill: none;}
+  .x.axis path {fill: none;}
+  .x.axis text {fill: #333;}
+  .xLabel {font-family: sans-serif; font-size: 9px;}
+
+/* Line Chart */
+
+/*  .axis {shape-rendering: crispEdges;}
+  .x.axis .minor, .y.axis .minor {stroke-opacity: .5;}
+  .x.axis {stroke-opacity: 1;}*/
+/*  .y.axis line, .y.axis path, .x.axis path {fill: none; stroke: #acacac; stroke-width: 1;}
+  .x.axis line {stroke: #acacac; stroke-opacity: .75;}*/
+/*  .bigg {-webkit-transition: all .2s ease-in-out; -webkit-transform: scale(2);}
+  path.chartLine {stroke: #14ECC8; stroke-width: 3; fill: none;}*/
+  div.tooltip {position: absolute; text-align: left; padding: 4px 8px; width: auto; font-size: 10px; height: auto; background: #fff; border: 0px; pointer-events: none;}
+  /*circle {fill: #fff;}*/
+
+/* Map */
+
+  .leaflet-popup-content {font-family: Merriweather;}
+  .leaflet-popup-content h2 {margin-bottom: 4px;}
+
+  img.petThumbs {height: 80px; width: 80px; border-radius: 1000px;}
+  
+  /* MailChimp Form Embed Code - Slim - 08/17/2011 */
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}     
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+#mc_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px;}
+#mc_embed_signup input.button {display:block; width:35%; margin:0 0 10px 0; min-width:90px;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}

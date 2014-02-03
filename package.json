@@ -1,0 +1,38 @@
+{
+  "name": "sheetsee-maplist",
+  "version": "0.0.0",
+  "description": "cache google spreadsheet data, draw map and render external tooltips for markers",
+  "main": "index.js",
+  "scripts": {
+    "start": "browservefy test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlord/sheetsee-cache.git"
+  },
+  "keywords": [
+    "sheetsee",
+    "map"
+  ],
+  "author": "jllord",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "browserify": "~2.7.2"
+  },
+  "dependencies": {
+    "jsonp": "0.0.3",
+    "feed-tables": "~0.1.3",
+    "mapbox.js": "~0.6.7",
+    "filesystem-browserify": "0.0.1",
+    "beefy": "0.0.11",
+    "tabletop": "1.3.1",
+    "hasinternet": "0.0.0",
+    "cheerio": "~0.10.8",
+    "filed": "0.0.7",
+    "router": "~0.6.2"
+  },
+  "bugs": {
+    "url": "https://github.com/jlord/sheetsee-cache/issues"
+  },
+  "homepage": "https://github.com/jlord/sheetsee-cache"
+}
